@@ -17,7 +17,7 @@ class App extends Component {
           time: "09:30",
           title: "Visita ao cliente",
           location: "Zona Sul",
-          description: "Encontro com o cliente para discussão de ideias produto"
+          description: "Encontro com o cliente para ouvir a proposta"
         },
         {
           id: 2,
@@ -62,7 +62,7 @@ class App extends Component {
                 ))}
               </div>
               <MDBRow className="mb-4">
-                <MDBCol xl="3" md="6" className="mx-auto text-center">
+                <MDBCol xl="6" md="6" className="mx-auto text-center">
                   <MDBBtn className="button" rounded onClick={this.toggleModal}>
                     Adicionar evento
                   </MDBBtn>

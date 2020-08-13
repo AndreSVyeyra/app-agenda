@@ -25,7 +25,8 @@ p {
   text-align: start;
 }
 .button{
-  color:black;
+  color:white;
+  border-color: aqua;
   border-radius: 40px;
   background: linear-gradient(90deg, #099102, #4dff01);
 }
