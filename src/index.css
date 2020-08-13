@@ -24,3 +24,8 @@ code {
 p {
   text-align: start;
 }
+.button{
+  color:black;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #099102, #4dff01);
+}

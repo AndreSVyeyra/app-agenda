@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
-import {MDBBtn, MDBInput, MDBModal, MDBModalBody, MDBModalHeader, MDBModalFooter, MDBIcon, MDBBadge, MDBContainer, MDBRow, MDBCol} from "mdbreact";
+import {MDBIcon, MDBBadge} from "mdbreact";
 import "./index.css";
 
 class Event extends Component {
@@ -16,7 +16,7 @@ class Event extends Component {
             
                 <div className="media-body mb-3 mb-lg-3">
                     <MDBBadge onClick={() => this.props.onDelete(this.props.id)} color="danger" className="ml-2 float-right">
-                    -
+                    <MDBIcon icon="trash" />
                     </MDBBadge>
                     <h6 className="mt-0 font-weight-bold">{this.props.title} </h6>{" "}
                     <hr className="hr-bold my-2" />
