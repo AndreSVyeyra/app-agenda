@@ -47,7 +47,7 @@ class App extends Component {
           <MDBContainer>
             <MDBRow>
               <MDBCol md="9" className="mb-r">
-              <h2 className="text-uppercase my-3">Today:</h2>
+              <h2 className="text-uppercase my-3">HOJE:</h2>
               <div id="schedule-items">
                 {this.state.events.map(event => (
                   <Event
